@@ -3,9 +3,7 @@
 -- =============================================================================
 
 -- 1.1. Crear la Base de Datos 'streaming_db'
--- **Instrucción:**
--- En el portal de Azure PostgreSQL, crear una nueva base de datos llamada
--- 'streaming_db' o conectarse a ella si ya existe.
+-- En el portal de Azure PostgreSQL, crear una nueva base de datos llamada 'streaming_db' o conectarse a ella si ya existe.
 CREATE DATABASE streaming_db
     WITH 
     ENCODING = 'UTF8';
