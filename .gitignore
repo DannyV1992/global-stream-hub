@@ -25,7 +25,7 @@ Desktop.ini
 *.swo
 *~
 
-# Python (si usas scripts auxiliares)
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
