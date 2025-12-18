@@ -66,12 +66,12 @@ La plataforma opera bajo un modelo híbrido:
                               │ Transformación
                               │
 ┌─────────────────────────────────────────────────────────────┐
-│                  CAPA SILVER (Normalizado)                  │
-│  ┌──────────────┬──────────────┬──────────────┬──────────┐  │
-│  │   Users      │   Content    │  Streaming   │   Ads    │  │
-│  │ Subscriptions│   Genres     │   Sessions   │ Campaigns│  │
-│  │   Countries  │   Artists    │   Devices    │Impressions│ │
-│  └──────────────┴──────────────┴──────────────┴──────────┘  │
+│                   CAPA SILVER (Normalizado)                 │
+│  ┌───────────────┬───────────┬─────────────┬─────────────┐  │
+│  │ Users         │  Content  │  Streaming  │ Ads         │  │
+│  │ Subscriptions │  Genres   │  Sessions   │ Campaigns   │  │
+│  │ Countries     │  Artists  │  Devices    │ Impressions │  │
+│  └───────────────┴───────────┴─────────────┴─────────────┘  │
 └─────────────────────────────────────────────────────────────┘
                               ▲
                               │ ETL & Limpieza
