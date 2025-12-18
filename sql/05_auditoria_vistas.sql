@@ -476,7 +476,7 @@ CREATE UNIQUE INDEX idx_mv_ad_perf_metrics
 ON gold.mv_ad_performance_metrics (ad_id);
 
 -- -----------------------------------------------------------------------------
--- 17.4. Vista Materializada: mv_daily_platform_metrics (CORREGIDA)
+-- 17.4. Vista Materializada: mv_daily_platform_metrics
 -- Métricas diarias de la plataforma (KPIs generales)
 -- -----------------------------------------------------------------------------
 DROP MATERIALIZED VIEW IF EXISTS gold.mv_daily_platform_metrics CASCADE;
