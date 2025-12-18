@@ -1,0 +1,49 @@
+# PostgreSQL
+*.log
+*.sql.bak
+*.dump
+
+# DBeaver
+.dbeaver/
+.metadata/
+
+# Credenciales
+.env
+.env.local
+credentials.json
+database.ini
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (si usas scripts auxiliares)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.old
+temp/
+tmp/
+
+# Documentación compilada
+*.pdf.bak
+*.docx
+~$*
+
+# Diagramas temporales
+*.drawio.bkp
+*.mwb.bak
