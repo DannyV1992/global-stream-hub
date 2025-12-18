@@ -41,7 +41,6 @@ tmp/
 
 # Documentación compilada
 *.pdf.bak
-*.docx
 ~$*
 
 # Diagramas temporales
