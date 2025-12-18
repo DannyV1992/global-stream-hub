@@ -199,9 +199,11 @@ global-stream-hub/
 │   │   ├── bronze_erd.png
 │   │   ├── silver_erd.png
 │   │   └── gold_erd.png
-│   └── design_document.pdf
+│   └── Documento_diseño.pdf
 │
 ├── README.md                               # Este archivo
+├── CHANGELOG.md
+├── CONTRIBUTING.md
 └── LICENSE
 ```
 
