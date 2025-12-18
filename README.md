@@ -78,11 +78,11 @@ La plataforma opera bajo un modelo híbrido:
                               │
 ┌─────────────────────────────────────────────────────────────┐
 │                   CAPA BRONZE (Raw Data)                    │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │  • user_registrations      • raw_streaming_logs        │ │
-│  │  • raw_catalog_data        • raw_ad_impressions        │ │
-│  │  • raw_subscription_data                               │ │
-│  └────────────────────────────────────────────────────────┘ │
+│  ┌───────────────────────────────────────────────────────┐  │
+│  │  • user_registrations      • raw_streaming_logs       │  │
+│  │  • raw_catalog_data        • raw_ad_impressions       │  │
+│  │  • raw_subscription_data                              │  │
+│  └───────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────┘
 ```
 
