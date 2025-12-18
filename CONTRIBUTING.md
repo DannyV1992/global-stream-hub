@@ -9,7 +9,7 @@
 ```bash
 # Fork el repositorio en GitHub
 # Luego clona tu fork
-git clone https://github.com/TU-USUARIO/global-stream-hub.git
+git clone https://github.com/DannyV1992/global-stream-hub.git
 cd global-stream-hub
 ```
 

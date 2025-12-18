@@ -433,4 +433,4 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 **⭐ Si este proyecto te fue útil, considera darle una estrella ⭐**
 
-[![GitHub stars](https://img.shields.io/github/stars/DannyV1992/streaming_db?style=social)](https://github.com/DannyV1992/streaming_db/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/DannyV1992/global-stream-hub?style=social)](https://github.com/DannyV1992/global-stream-hub/stargazers)
