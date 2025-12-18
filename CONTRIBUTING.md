@@ -1,8 +1,8 @@
-# Guía de Contribución
+# Guía de contribución
 
 ¡Gracias por tu interés en contribuir a Global Stream Hub!
 
-## 🤝 Cómo Contribuir
+## 🤝 Cómo contribuir
 
 ### 1. Fork y Clone
 
@@ -13,13 +13,13 @@ git clone https://github.com/TU-USUARIO/global-stream-hub.git
 cd global-stream-hub
 ```
 
-### 2. Crear una Rama
+### 2. Crear una rama
 
 ```bash
 git checkout -b feature/nueva-funcionalidad
 ```
 
-### 3. Hacer Cambios
+### 3. Hacer cambios
 
 - Sigue las convenciones de código SQL existentes
 - Comenta tus queries apropiadamente
@@ -40,7 +40,7 @@ git push origin feature/nueva-funcionalidad
 
 Luego abre un Pull Request en GitHub.
 
-## 📝 Convenciones de Código
+## 📝 Convenciones de código
 
 ### SQL
 - Usa UPPERCASE para palabras clave SQL (`SELECT`, `FROM`, `WHERE`)
@@ -63,7 +63,7 @@ Luego abre un Pull Request en GitHub.
 - [ ] Se probaron las queries con datos de ejemplo
 - [ ] Los scripts mantienen idempotencia
 
-## 🐛 Reportar Bugs
+## 🐛 Reportar bugs
 
 Abre un Issue en GitHub con:
 - Descripción del problema
@@ -72,7 +72,7 @@ Abre un Issue en GitHub con:
 - Versión de PostgreSQL utilizada
 - Scripts relevantes
 
-## 💡 Sugerir Mejoras
+## 💡 Sugerir mejoras
 
 Abre un Issue en GitHub con:
 - Descripción de la mejora

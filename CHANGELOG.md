@@ -30,7 +30,7 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.
 
 ## [Unreleased]
 
-### Por Hacer
+### Por hacer
 - [ ] Implementar particionamiento por fecha
 - [ ] Agregar pg_cron para automatización
 - [ ] Crear API REST para vistas
