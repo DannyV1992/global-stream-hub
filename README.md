@@ -16,11 +16,11 @@
 - [Características](#-características)
 - [Requisitos](#-requisitos)
 - [Instalación](#-instalación)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
+- [Estructura del proyecto](#-estructura-del-proyecto)
 - [Uso](#-uso)
-- [Modelo de Datos](#-modelo-de-datos)
-- [Consultas de Ejemplo](#-consultas-de-ejemplo)
-- [Auditoría y Seguridad](#-auditoría-y-seguridad)
+- [Modelo de datos](#-modelo-de-datos)
+- [Consultas de ejemplo](#-consultas-de-ejemplo)
+- [Auditoría y seguridad](#-auditoría-y-seguridad)
 - [Contribuciones](#-contribuciones)
 - [Licencia](#-licencia)
 
@@ -40,8 +40,8 @@
 ### Modelo de negocio
 
 La plataforma opera bajo un modelo híbrido:
-- **Suscripción Premium**: Acceso sin publicidad y contenido exclusivo ($14.99/mes)
-- **Plan con Publicidad**: Acceso con anuncios intercalados ($4.99/mes)
+- **Suscripción premium**: Acceso sin publicidad y contenido exclusivo ($14.99/mes)
+- **Plan con publicidad**: Acceso con anuncios intercalados ($4.99/mes)
 
 ---
 
@@ -51,7 +51,7 @@ La plataforma opera bajo un modelo híbrido:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     CAPA GOLD (Curated)                     │
+│                     CAPA GOLD (Curado)                      │
 │  ┌──────────────────────┐    ┌───────────────────────────┐  │
 │  │   Dimensiones (6)    │    │   Hechos (3)              │  │
 │  │  • dim_users         │    │  • fact_user_activity     │  │
@@ -66,7 +66,7 @@ La plataforma opera bajo un modelo híbrido:
                               │ Transformación
                               │
 ┌─────────────────────────────────────────────────────────────┐
-│                  CAPA SILVER (Normalized)                   │
+│                  CAPA SILVER (Normalizado)                  │
 │  ┌──────────────┬──────────────┬──────────────┬──────────┐  │
 │  │   Users      │   Content    │  Streaming   │   Ads    │  │
 │  │ Subscriptions│   Genres     │   Sessions   │ Campaigns│  │
@@ -74,7 +74,7 @@ La plataforma opera bajo un modelo híbrido:
 │  └──────────────┴──────────────┴──────────────┴──────────┘  │
 └─────────────────────────────────────────────────────────────┘
                               ▲
-                              │ ETL & Cleaning
+                              │ ETL & Limpieza
                               │
 ┌─────────────────────────────────────────────────────────────┐
 │                   CAPA BRONZE (Raw Data)                    │
@@ -312,7 +312,7 @@ ORDER BY total_hours_watched DESC
 LIMIT 10;
 ```
 
-📄 **Más ejemplos** disponibles en: [`06_consulta_ejemplos.sql`](06_consulta_ejemplos.sql)
+📄 **Más ejemplos** disponibles en: [`06_consulta_ejemplos.sql`](sql/06_consulta_ejemplos.sql)
 
 ---
 
