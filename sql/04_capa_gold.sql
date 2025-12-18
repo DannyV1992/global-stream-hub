@@ -128,7 +128,7 @@ COMMENT ON TABLE gold.dim_time_of_day IS 'Dimensión de hora del día para anál
 -- =============================================================================
 
 -- -----------------------------------------------------------------------------
--- 10.1. Tabla de Hechos: gold.fact_user_activity
+-- 10.1. Tabla de hechos: gold.fact_user_activity
 -- Actividad agregada de usuarios por día
 -- -----------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS gold.fact_user_activity (
@@ -160,7 +160,7 @@ COMMENT ON TABLE gold.fact_user_activity IS 'Hechos de actividad de usuarios agr
 COMMENT ON COLUMN gold.fact_user_activity.completed_content_count IS 'Cantidad de contenidos completados (>90% visto).';
 
 -- -----------------------------------------------------------------------------
--- 10.2. Tabla de Hechos: gold.fact_content_popularity
+-- 10.2. Tabla de hechos: gold.fact_content_popularity
 -- Popularidad de contenido agregada por período
 -- -----------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS gold.fact_content_popularity (
@@ -186,7 +186,7 @@ CREATE TABLE IF NOT EXISTS gold.fact_content_popularity (
 COMMENT ON TABLE gold.fact_content_popularity IS 'Hechos de popularidad de contenido agregados por día.';
 
 -- -----------------------------------------------------------------------------
--- 10.3. Tabla de Hechos: gold.fact_ad_performance
+-- 10.3. Tabla de hechos: gold.fact_ad_performance
 -- Rendimiento de anuncios publicitarios
 -- -----------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS gold.fact_ad_performance (
@@ -516,4 +516,3 @@ UNION ALL
 SELECT 'fact_content_popularity', COUNT(*) FROM gold.fact_content_popularity
 UNION ALL
 SELECT 'fact_ad_performance', COUNT(*) FROM gold.fact_ad_performance;
-

@@ -681,7 +681,6 @@ FROM information_schema.views
 WHERE table_schema = 'gold'
 ORDER BY table_name;
 
-
 -- Verificar vistas materializadas
 SELECT 
     schemaname,
