@@ -1,29 +1,18 @@
 -- =============================================================================
--- Proyecto Final: Global Stream Hub - Plataforma de Streaming Multimedia
--- Curso: Arquitectura de Bases de Datos
--- Fecha: Diciembre 18, 2025
--- Base de Datos: PostgreSQL 17 en Azure
--- Herramienta: DBeaver
---
--- Este script implementa una arquitectura Medallón (Bronze, Silver, Gold)
--- para una plataforma global de streaming de video y música.
--- =============================================================================
-
--- =============================================================================
 -- PASO 1: PREPARACIÓN DEL ENTORNO
 -- =============================================================================
 
 -- 1.1. Crear la Base de Datos 'streaming_db'
 -- **Instrucción:**
--- En el portal de Azure PostgreSQL, crea una nueva base de datos llamada
--- 'streaming_db' o conéctate a ella si ya existe.
+-- En el portal de Azure PostgreSQL, crear una nueva base de datos llamada
+-- 'streaming_db' o conectarse a ella si ya existe.
 CREATE DATABASE streaming_db
     WITH 
     ENCODING = 'UTF8';
 COMMENT ON DATABASE streaming_db IS 'Base de datos para Global Stream Hub - Plataforma de Streaming Multimedia';
 
 -- 1.2. Eliminación de esquemas existentes (si es necesario para limpiar)
--- En DBeaver, asegúrate de que 'streaming_db' sea la base de datos activa.  
+-- Asegurarse de que 'streaming_db' sea la base de datos activa.  
 -- PRECAUCIÓN: Esto eliminará todos los datos existentes en estos esquemas
 DROP SCHEMA IF EXISTS bronze CASCADE;
 DROP SCHEMA IF EXISTS silver CASCADE;

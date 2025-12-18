@@ -1,10 +1,6 @@
 -- =============================================================================
 -- PARTE 5: AUDITORÍA, TRIGGERS, VISTAS Y VISTAS MATERIALIZADAS (VERSIÓN FINAL)
 -- =============================================================================
--- Este script implementa el sistema de auditoría, triggers automáticos,
--- vistas para consultas de negocio y vistas materializadas para rendimiento.
--- NOTA: Incluye todas las correcciones aplicadas
--- =============================================================================
 
 -- =============================================================================
 -- PASO 14: SISTEMA DE AUDITORÍA
@@ -574,9 +570,6 @@ COMMENT ON FUNCTION gold.refresh_all_materialized_views IS 'Refresca todas las v
 -- -----------------------------------------------------------------------------
 -- 19.1. Crear roles de base de datos
 -- -----------------------------------------------------------------------------
--- -----------------------------------------------------------------------------
--- 19.1. Crear roles de base de datos (con revocación previa de permisos)
--- -----------------------------------------------------------------------------
 
 -- Revocar permisos y eliminar rol ETL si existe
 DO $$ 
@@ -731,10 +724,3 @@ SELECT 'Funciones', COUNT(*) FROM information_schema.routines
 UNION ALL
 SELECT 'Roles', COUNT(*) FROM pg_roles 
     WHERE rolname IN ('etl_process_role', 'bi_analyst_role', 'api_consumer_role');
-
--- =============================================================================
--- FIN DE LA PARTE 5: AUDITORÍA, TRIGGERS, VISTAS Y VISTAS MATERIALIZADAS
--- =============================================================================
--- ¡PROYECTO COMPLETO!
--- =============================================================================
-

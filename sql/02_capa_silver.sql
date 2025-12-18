@@ -264,7 +264,6 @@ COMMENT ON TABLE silver.streaming_sessions IS 'Sesiones de streaming limpias con
 -- ---------------------------------------------------------------------------
 -- 5.12. Tabla: silver.playlists
 -- Listas de reproducción creadas por los usuarios
--- (Para el proyecto se puede poblar con datos sintéticos luego)
 -- ---------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS silver.playlists (
     playlist_id        INT DEFAULT nextval('silver.playlist_seq') PRIMARY KEY,

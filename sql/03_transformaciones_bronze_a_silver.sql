@@ -228,8 +228,7 @@ ON CONFLICT (email) DO NOTHING;
 
 -- -----------------------------------------------------------------------------
 -- 7.4. Cargar géneros desde Bronze (normalizados)
--- Primero extraemos géneros únicos del campo "genero" que puede tener múltiples
--- valores separados por comas
+-- Primero extraemos géneros únicos del campo "genero" que puede tener múltiples valores separados por comas
 -- -----------------------------------------------------------------------------
 
 -- Crear una tabla temporal con géneros separados
