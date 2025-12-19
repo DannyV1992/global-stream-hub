@@ -418,7 +418,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 ¿Preguntas o sugerencias?
 
 - 📧 Email: dava01cr@gmail.com
-- 💼 LinkedIn: danielvasquezcr
+- 💼 LinkedIn: [danielvasquezcr](https://www.linkedin.com/in/danielvasquezcr/)
 - 🐙 GitHub: [@DannyV1992](https://github.com/DannyV1992)
 
 ---
