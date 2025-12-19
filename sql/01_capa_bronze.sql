@@ -7,10 +7,10 @@
 CREATE DATABASE streaming_db
     WITH 
     ENCODING = 'UTF8';
+-- Luego de crear la base de datos asegurarse de que 'streaming_db' sea la base de datos activa. 
 COMMENT ON DATABASE streaming_db IS 'Base de datos para Global Stream Hub - Plataforma de Streaming Multimedia';
 
--- 1.2. Eliminación de esquemas existentes (si es necesario para limpiar)
--- Asegurarse de que 'streaming_db' sea la base de datos activa.  
+-- 1.2. Eliminación de esquemas existentes (si es necesario para limpiar) 
 -- PRECAUCIÓN: Esto eliminará todos los datos existentes en estos esquemas
 DROP SCHEMA IF EXISTS bronze CASCADE;
 DROP SCHEMA IF EXISTS silver CASCADE;
